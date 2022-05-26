@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gutenberg-examples/example-01-basic-esnext",
+	"version": "0.1.0",
+	"title": "Example Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gutenberg-examples",
+	"editorScript": "file:./index.js"
+}
